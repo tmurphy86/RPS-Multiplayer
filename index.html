@@ -18,21 +18,25 @@
 </head>
 <body>
 	<div class="container">
-		<div class='center'>
+		<div class='center card'>
 		<img class="responsive-img" src="assets/img/rps.png">
 		</div>
 
-		<div class="greeting">
+
+	 <div class='row'>
+		<div class="greeting card col 6">
 			<form id="name-form">
 				<input type="text" id="name-input" placeholder="Name">
 				<input id="addName" type="submit" value="Start">
 			</form>
 		</div>
-		<div class="holder-box">
+		<div class='col 1'></div>
+
+
+		<div class="card col 2">
 			<div class="box player1">
 				<div class="waiting">
 					<h1>Waiting for player 1</h1>
-					<i class="fa fa-spinner fa-spin fa-one-large fa-fw"></i>
 				</div>
 				<div class="score score1"></div>
 				<div class="choices1"></div>
@@ -41,21 +45,21 @@
 			<div class="box player2">
 				<div class="waiting">
 					<h1>Waiting for player 2</h1>
-					<i class="fa fa-spinner fa-spin fa-one-large fa-fw"></i>
 				</div>
 				<div class="score score2"></div>
 				<div class="choices2"></div>
 			</div>
 		</div>
-		<div class="holder-messages">
+		<!-- <div class="holder-messages">
 			<div id="messages"></div>
 			<form id="message-form">
 				<input type="text" id="message-input" placeholder="Message">
 				<input id="addMessage" type="submit" value="Send">
 			</form>
 		</div>
+	</div> -->
 	</div>
-	<!-- A pp JavaScript -->
+	<!-- App JavaScript -->
 	<script src="assets/app.js"></script>
 </body>
 </html>
